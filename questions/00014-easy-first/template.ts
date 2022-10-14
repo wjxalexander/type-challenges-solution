@@ -1,1 +1,1 @@
-type First<T extends readonly any[]> = T["length"] extends 0 ? never : T[0]
+type First<T extends readonly any[]> = T['length'] extends 0 ? never : T[0]

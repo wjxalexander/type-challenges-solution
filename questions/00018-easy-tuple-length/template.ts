@@ -1,1 +1,1 @@
-type Length<T> = T extends readonly any[] ? T["length"] : never
+type Length<T> = T extends readonly any[] ? T['length'] : never

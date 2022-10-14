@@ -1,5 +1,5 @@
 type _Equal<First, Second> = (<T>() => T extends First ? true : false) extends <
-  T
+  T,
 >() => T extends Second ? true : false
   ? true
   : false
